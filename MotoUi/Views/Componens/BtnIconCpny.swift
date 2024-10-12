@@ -10,6 +10,7 @@ import SwiftUI
 struct BarIconStart: View {
     
     @ObservedObject var conexion: MainVM
+<<<<<<< HEAD
 
     var body: some View {
         
@@ -31,6 +32,13 @@ struct BarIconStart: View {
                                                     
                 ForEach(conexion.allBikes, id: \.id) {bike in
                     
+=======
+    
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 20) {
+                ForEach(conexion.allBikes, id: \.id) {bike in
+>>>>>>> f735f98 (ListView pre test)
                     VStack {
                         Image(bike.image)
                             .resizable()
@@ -39,11 +47,20 @@ struct BarIconStart: View {
                             .modifier(for: bike.imgIconOn)
                             .onTapGesture {
                                 conexion.changeIcon(id: bike.id)
+<<<<<<< HEAD
                                 conexion.playSound()
+=======
+                                if !conexion.isPlaying {
+                                    conexion.playSound(nameAudio: bike.audioName)
+                                }else {
+                                    conexion.pauseSound()
+                                }
+>>>>>>> f735f98 (ListView pre test)
                                 self.conexion.wallpaper = bike.imgWallpaper
                             }
                             .foregroundStyle(.ultraThinMaterial)
                     }
+<<<<<<< HEAD
                     
                 }
                 
@@ -53,6 +70,13 @@ struct BarIconStart: View {
         }
     }
     
+=======
+                }
+            }
+            .padding(.leading, 20)
+        }
+    }
+>>>>>>> f735f98 (ListView pre test)
 }
 
 extension View {

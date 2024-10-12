@@ -115,6 +115,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				23387B312CB6F8E300A00182 /* MotoUi */,
+<<<<<<< HEAD
+=======
+				239F9DAB2CBB77F80032687E /* audios */,
+>>>>>>> f735f98 (ListView pre test)
 			);
 			name = MotoUi;
 			packageProductDependencies = (
@@ -218,7 +222,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				233ED05F2CB8B93F00E0360F /* aprilia-audio.wav in Resources */,
+=======
+>>>>>>> f735f98 (ListView pre test)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
