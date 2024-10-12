@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233ED05F2CB8B93F00E0360F /* aprilia-audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 233ED05E2CB8B93F00E0360F /* aprilia-audio.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23387B402CB6F8E400A00182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23387B272CB6F8E300A00182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23387B2E2CB6F8E300A00182;
+			remoteInfo = MotoUi;
+		};
+		23387B4A2CB6F8E400A00182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23387B272CB6F8E300A00182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23387B2E2CB6F8E300A00182;
+			remoteInfo = MotoUi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23387B2F2CB6F8E300A00182 /* MotoUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23387B3F2CB6F8E400A00182 /* MotoUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23387B492CB6F8E400A00182 /* MotoUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233ED05E2CB8B93F00E0360F /* aprilia-audio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "aprilia-audio.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		23387B312CB6F8E300A00182 /* MotoUi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotoUi;
+			sourceTree = "<group>";
+		};
+		23387B422CB6F8E400A00182 /* MotoUiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotoUiTests;
+			sourceTree = "<group>";
+		};
+		23387B4C2CB6F8E400A00182 /* MotoUiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotoUiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23387B2C2CB6F8E300A00182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B3C2CB6F8E400A00182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B462CB6F8E400A00182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23387B262CB6F8E300A00182 = {
+			isa = PBXGroup;
+			children = (
+				23387B312CB6F8E300A00182 /* MotoUi */,
+				23387B422CB6F8E400A00182 /* MotoUiTests */,
+				23387B4C2CB6F8E400A00182 /* MotoUiUITests */,
+				23387B302CB6F8E300A00182 /* Products */,
+				233ED05E2CB8B93F00E0360F /* aprilia-audio.wav */,
+			);
+			sourceTree = "<group>";
+		};
+		23387B302CB6F8E300A00182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23387B2F2CB6F8E300A00182 /* MotoUi.app */,
+				23387B3F2CB6F8E400A00182 /* MotoUiTests.xctest */,
+				23387B492CB6F8E400A00182 /* MotoUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23387B2E2CB6F8E300A00182 /* MotoUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23387B532CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUi" */;
+			buildPhases = (
+				23387B2B2CB6F8E300A00182 /* Sources */,
+				23387B2C2CB6F8E300A00182 /* Frameworks */,
+				23387B2D2CB6F8E300A00182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				23387B312CB6F8E300A00182 /* MotoUi */,
+			);
+			name = MotoUi;
+			packageProductDependencies = (
+			);
+			productName = MotoUi;
+			productReference = 23387B2F2CB6F8E300A00182 /* MotoUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23387B3E2CB6F8E400A00182 /* MotoUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23387B562CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUiTests" */;
+			buildPhases = (
+				23387B3B2CB6F8E400A00182 /* Sources */,
+				23387B3C2CB6F8E400A00182 /* Frameworks */,
+				23387B3D2CB6F8E400A00182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23387B412CB6F8E400A00182 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23387B422CB6F8E400A00182 /* MotoUiTests */,
+			);
+			name = MotoUiTests;
+			packageProductDependencies = (
+			);
+			productName = MotoUiTests;
+			productReference = 23387B3F2CB6F8E400A00182 /* MotoUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23387B482CB6F8E400A00182 /* MotoUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23387B592CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUiUITests" */;
+			buildPhases = (
+				23387B452CB6F8E400A00182 /* Sources */,
+				23387B462CB6F8E400A00182 /* Frameworks */,
+				23387B472CB6F8E400A00182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23387B4B2CB6F8E400A00182 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23387B4C2CB6F8E400A00182 /* MotoUiUITests */,
+			);
+			name = MotoUiUITests;
+			packageProductDependencies = (
+			);
+			productName = MotoUiUITests;
+			productReference = 23387B492CB6F8E400A00182 /* MotoUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23387B272CB6F8E300A00182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					23387B2E2CB6F8E300A00182 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					23387B3E2CB6F8E400A00182 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 23387B2E2CB6F8E300A00182;
+					};
+					23387B482CB6F8E400A00182 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 23387B2E2CB6F8E300A00182;
+					};
+				};
+			};
+			buildConfigurationList = 23387B2A2CB6F8E300A00182 /* Build configuration list for PBXProject "MotoUi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23387B262CB6F8E300A00182;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23387B302CB6F8E300A00182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23387B2E2CB6F8E300A00182 /* MotoUi */,
+				23387B3E2CB6F8E400A00182 /* MotoUiTests */,
+				23387B482CB6F8E400A00182 /* MotoUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23387B2D2CB6F8E300A00182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233ED05F2CB8B93F00E0360F /* aprilia-audio.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B3D2CB6F8E400A00182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B472CB6F8E400A00182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23387B2B2CB6F8E300A00182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B3B2CB6F8E400A00182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23387B452CB6F8E400A00182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23387B412CB6F8E400A00182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23387B2E2CB6F8E300A00182 /* MotoUi */;
+			targetProxy = 23387B402CB6F8E400A00182 /* PBXContainerItemProxy */;
+		};
+		23387B4B2CB6F8E400A00182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23387B2E2CB6F8E300A00182 /* MotoUi */;
+			targetProxy = 23387B4A2CB6F8E400A00182 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23387B512CB6F8E400A00182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23387B522CB6F8E400A00182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23387B542CB6F8E400A00182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoUi/Preview Content\"";
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23387B552CB6F8E400A00182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoUi/Preview Content\"";
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23387B572CB6F8E400A00182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoUi";
+			};
+			name = Debug;
+		};
+		23387B582CB6F8E400A00182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoUi";
+			};
+			name = Release;
+		};
+		23387B5A2CB6F8E400A00182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoUi;
+			};
+			name = Debug;
+		};
+		23387B5B2CB6F8E400A00182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.MotoUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoUi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23387B2A2CB6F8E300A00182 /* Build configuration list for PBXProject "MotoUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23387B512CB6F8E400A00182 /* Debug */,
+				23387B522CB6F8E400A00182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23387B532CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23387B542CB6F8E400A00182 /* Debug */,
+				23387B552CB6F8E400A00182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23387B562CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23387B572CB6F8E400A00182 /* Debug */,
+				23387B582CB6F8E400A00182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23387B592CB6F8E400A00182 /* Build configuration list for PBXNativeTarget "MotoUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23387B5A2CB6F8E400A00182 /* Debug */,
+				23387B5B2CB6F8E400A00182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23387B272CB6F8E300A00182 /* Project object */;
+}
